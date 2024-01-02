@@ -1,10 +1,11 @@
 {
   "dependencies": {
-    "vue": "^3.2.45"
+    "snyk": "^1.1267.0",
+    "vue": "^3.4.3"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.0.0",
-    "vite": "^4.0.4"
+    "@vitejs/plugin-vue": "^5.0.2",
+    "vite": "^5.0.10"
   },
   "name": "my-project",
   "scripts": {
