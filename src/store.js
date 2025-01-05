@@ -1,12 +1,10 @@
-import { createStore } from 'vuex'
+import { defineStore } from "pinia";
 
-const mutations = {
-    increment(state) {
-      state.counter += 1
+export const useCounterStore = defineStore("counter", {
+  actions: {
+    increment() {
+      this.value++;
     }
   },
-  state = {
-    counter: 0
-  }
-
-export default createStore({ mutations, state, strict: true })
+  state: () => ({ value: 0 })
+});
