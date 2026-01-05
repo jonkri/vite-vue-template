@@ -26,10 +26,10 @@
       </li>
     </ul>
   </nav>
-  <HelloWorld msg="Hello World!" />
-  <CitiesList />
-  <CounterButton />
   <main>
     <RouterView />
   </main>
+  <HelloWorld msg="Hello World!" />
+  <CitiesList />
+  <CounterButton />
 </template>
