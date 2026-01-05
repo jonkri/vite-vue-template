@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "vue": "^3.5.13"
+    "vue": "^3.5.26"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.1",
-    "vite": "^6.0.5"
+    "@vitejs/plugin-vue": "^6.0.3",
+    "vite": "^7.3.0"
   },
   "name": "my-project",
   "scripts": {
@@ -12,6 +12,6 @@
     "dev": "vite",
     "preview": "vite preview"
   },
-  "version": "0.0.0",
-  "type": "module"
+  "type": "module",
+  "version": "0.0.0"
 }
